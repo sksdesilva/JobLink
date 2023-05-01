@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">JobLink</string>
+    <string name="login_welcome">Welcome Back</string>
+    <string name="sign_continue">Sign to continue</string>
+    <string name="company_email">Company Email</string>
+    <string name="company_password">Password</string>
+    <string name="new_signup">Dont have account</string>
+    <string name="company_sign_up">Company Sign Up</string>
+    <string name="Company_update">  Update Profile</string>
+    <string name="company_login_dashboard">Tragity Limited</string>
+    <string name="company_edit">Edit Profile</string>
+    <string name="dashboard_facilities_one">Post new job</string>
+    <string name="dashboard_facilities_two">View Applicants</string>
+    <string name="dashboard_facilities_three">View all jobs</string>
+    <string name="dashboard_welcome">Welcome To JobLink</string>
+    <string name="dashboard_seekers">Job Seekers</string>
+    <string name="dashboard_company">Companies</string>
+</resources>

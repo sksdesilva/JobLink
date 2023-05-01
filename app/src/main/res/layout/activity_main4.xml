@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    tools:context=".MainActivity4">
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="48dp"
+        android:onClick="clickNext3"
+        android:text="Update"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toStartOf="@+id/button6"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPhone3" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="40dp"
+        android:onClick="clickNext4"
+        android:text="Delete Account"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPhone3" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress7"
+        android:layout_width="334dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="32dp"
+        android:drawableLeft="@drawable/baseline_email_24"
+        android:ems="10"
+        android:fontFamily="@font/roboto"
+        android:hint="tragity@tragity.lk"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        android:textColorHint="@color/hintColor"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPostalAddress3"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPostalAddress3" />
+
+    <EditText
+        android:id="@+id/editTextPhone3"
+        android:layout_width="223dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="32dp"
+        android:drawableLeft="@drawable/baseline_phone_24"
+        android:ems="10"
+        android:fontFamily="@font/roboto"
+        android:hint="07756565695"
+        android:inputType="phone"
+        android:textColor="@color/black"
+        android:textColorHint="@color/hintColor"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress7"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress7" />
+
+    <EditText
+        android:id="@+id/editTextTextPostalAddress3"
+        android:layout_width="341dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="248dp"
+        android:drawableLeft="@drawable/baseline_location_on_24"
+        android:ems="10"
+        android:fontFamily="@font/roboto"
+        android:hint="77/1 , Hikkaduwa"
+        android:inputType="textPostalAddress"
+        android:textColor="@color/black"
+        android:textColorHint="@color/hintColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress6"
+        android:layout_width="347dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="32dp"
+        android:drawableLeft="@drawable/baseline_corporate_fare_24"
+        android:ems="10"
+        android:fontFamily="@font/roboto"
+        android:hint="Tragity Ltd"
+        android:inputType="text"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/hintColor"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPostalAddress3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.546"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="291dp"
+        android:layout_height="62dp"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="@font/roboto_black"
+        android:text="Update Profile"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.838"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress6" />
+</androidx.constraintlayout.widget.ConstraintLayout>
