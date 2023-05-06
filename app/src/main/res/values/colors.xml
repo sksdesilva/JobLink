@@ -9,6 +9,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="hintColor">#6E6E6E</color>
     <color name="primaryColor">#14BBEF</color>
+    <color name="dateleteColor">#F80000</color>
 
 </resources>
 
