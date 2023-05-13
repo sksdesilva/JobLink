@@ -77,7 +77,7 @@
         android:layout_marginTop="14dp"
         android:drawableLeft="@drawable/baseline_email_24"
         android:ems="10"
-        android:hint="Email"
+        android:hint="Company Id"
         android:inputType="textEmailAddress"
         android:textColor="@color/black"
         android:textColorHint="@color/hintColor"

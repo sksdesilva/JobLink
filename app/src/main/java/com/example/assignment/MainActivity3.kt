@@ -4,6 +4,8 @@ import android.content.DialogInterface
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
+import android.widget.ImageView
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import com.example.assignment.databinding.ActivityMain3Binding
@@ -24,6 +26,18 @@ class MainActivity3 : AppCompatActivity() {
         // Get the company name from MainActivity2
         val intent = intent
         companyName = intent.getStringExtra("companyName")!!
+
+        val button: Button = findViewById(R.id.editProfileButton)
+        button.setOnClickListener {
+            val intent = Intent(this@MainActivity3, MainActivity7::class.java)
+            intent.putExtra("companyName", companyName)
+            startActivity(intent)
+        }
+
+        supportActionBar?.title = companyName
+
+        binding.textView.text = "Welcome " + companyName
+
 
         // Set the company name as the title of the activity
         supportActionBar?.title = companyName

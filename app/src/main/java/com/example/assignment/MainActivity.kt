@@ -22,6 +22,11 @@ class MainActivity : AppCompatActivity() {
 
             database = FirebaseDatabase.getInstance().getReference("Employer")
 
+            binding.textView9.setOnClickListener {
+                val intent = Intent(this@MainActivity, MainActivity2::class.java)
+                startActivity(intent)
+            }
+
             binding.buttonE.setOnClickListener {
                 val email = binding.emailE.text.toString()
                 val password = binding.passwordE.text.toString()
@@ -46,7 +51,7 @@ class MainActivity : AppCompatActivity() {
                                     "Login Successful!",
                                     Toast.LENGTH_SHORT
                                 ).show()
-                                val intent = Intent(this@MainActivity, MainActivity7::class.java)
+                                val intent = Intent(this@MainActivity, MainActivity3::class.java)
                                 intent.putExtra("companyName", email)
                                 startActivity(intent)
                                 finish()

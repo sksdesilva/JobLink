@@ -98,10 +98,10 @@
         android:layout_marginBottom="56dp"
         android:drawableLeft="@drawable/baseline_email_24"
         android:ems="10"
-        android:hint="Enter Email"
+        android:hint="Company ID"
+        android:inputType="textPersonName"
         android:textColor="@color/black"
         android:textColorHint="@color/hintColor"
-        android:inputType="textPersonName"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/passwordE"
         app:layout_constraintStart_toStartOf="@+id/textView6" />
