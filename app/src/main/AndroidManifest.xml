@@ -12,6 +12,9 @@
         android:theme="@style/Theme.Assignment"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivity12"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity11"
             android:exported="false" />
         <activity
@@ -40,7 +43,7 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity2"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true" />
