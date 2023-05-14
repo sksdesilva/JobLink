@@ -130,7 +130,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
         android:layout_marginBottom="10dp"
-        android:text="Company Email"
+        android:text="Company Id"
         android:textColor="#000000"
         app:layout_constraintBottom_toTopOf="@+id/emailE"
         app:layout_constraintEnd_toStartOf="@+id/textView5"
